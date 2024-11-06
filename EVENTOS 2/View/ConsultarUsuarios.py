@@ -55,17 +55,17 @@ class ConsultarUsuarios():
         self.botones.config(width=600, height=100)
         self.botones.pack(fill="both", expand=True)
 
-        self.iconoCrear = tk.PhotoImage(filer=r"src\icons\user_add.png")
+        self.iconoCrear = tk.PhotoImage(filer=r"MVC\EVENTOS 2\src\icons\icons\user_add.png")
         self.btnCrearUsuario = tk.Button(self.botones, image=self.iconoCrear)
         self.btnCrearUsuario.place(relx=05, x=-50, y=25, anchor="nw")
         self.btnCrearUsuario.bind("<Button-1>", self.crearUsuario)
 
-        self.iconoEliminar = tk.PhotoImage(file=r"src\icons\user_delete.png")
+        self.iconoEliminar = tk.PhotoImage(file=r"MVC\EVENTOS 2\src\icons\icons\user_delete.png")
         self.btnEliminarUsuario = tk.Button(self.botones, image=self.iconoEliminar)
         self.btnLimpiar.place(relx=0.5, y=25, anchor="n")
         self.btnEliminarUsuario.bind("<Button-1>", self.eliminarUsuario)
 
-        self.iconoModificar = tk.PhotoImage(filer=r"src\icons\vcard_edit.png")
+        self.iconoModificar = tk.PhotoImage(filer=r"MVC\EVENTOS 2\src\icons\icons\user_edit.png")
         self.bntModificarUsuario = tk.Button(self.botones, image=self.iconoModificar)
         self.bntModificarUsuario.place(relx=0.5, y=25, x=50, anchor="ne")
         self.btnModificarUsuario.bind("<Button-1>", self.modimficarUsuario)

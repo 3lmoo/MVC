@@ -30,15 +30,15 @@ class EliminarUsuario():
         self.lblRol = tk.Entry(self.ventana, state="disabled")
         self.lblRol.place(x=160, y=235, width=150, height=25)
 
-        self.iconoBuscar = tk.PhotoImage(file=r"src\icons\magnifier.png")
+        self.iconoBuscar = tk.PhotoImage(file=r"MVC\EVENTOS 2\src\icons\icons\magnifier.png")
         self.btnBuscar = tk.Button(self.ventana, text="Buscar", imagen=self.iconoBuscar)
         self.btnBuscar.place(x=340, y=180, width=25, height=25)
 
-        self.iconoEliminar = tk.PhotoImage(file=r"src\icons\bin_closed.png")
+        self.iconoEliminar = tk.PhotoImage(file=r"MVC\EVENTOS 2\src\icons\icons\bin_closed.png")
         self.btnEliminar = tk.Button(self.ventana, text="Eliminar", imagen=self.iconoEliminar, compound="left")
         self.btnEliminar.place(x=85, y=310, width=80, height=25)
 
-        self.iconoLimpiar = tk.PhotoImage(file=r"src\icons\textfield_delete.png")
+        self.iconoLimpiar = tk.PhotoImage(file=r"MVC\EVENTOS 2\src\icons\icons\textfield_delete.png")
         self.btnLimpiar = tk.Button(self.ventana, text="Limpiar", imagen=self.iconoLimpiar, compound="left")
         self.btnLimpiar.place(x=195, y=310, width=80, height=25)
 
